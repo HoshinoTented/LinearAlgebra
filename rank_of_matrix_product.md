@@ -37,4 +37,4 @@ $$
 
 因此，$rank(AB) \le rank(A)$
 
-> 另一个美妙的证明：$rank(B^T A^T) <= rank(A^T)$，由于 _transpose_ 不会改变矩阵的 _rank_，因此 $rank(AB) <= rank(A)$
+> 另一个美妙的证明：$rank(B^T A^T) \le rank(A^T)$，由于 _transpose_ 不会改变矩阵的 _rank_，因此 $rank(AB) \le rank(A)$
