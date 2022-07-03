@@ -36,3 +36,5 @@ aB = (c_1 a_1 + c_2 a_2 + \dots + c_n a_n) B = (c_1 a_1) B + (c_2 a_2) B + \dots
 $$
 
 因此，$rank(AB) \le rank(A)$
+
+> 另一个美妙的证明：$rank(B^T A^T) <= rank(A^T)$，由于 _transpose_ 不会改变矩阵的 _rank_，因此 $rank(AB) <= rank(A)$
