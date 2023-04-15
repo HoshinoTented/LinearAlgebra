@@ -44,3 +44,5 @@ $$
 $$
 WB = V \quad \text{gives} \quad B = W^{-1} V
 $$
+
+> 只有在线性变换 $T$ 的 Range 为输出向量空间时，等式才成立。否则，对于那些处于 Kernel 中的基向量 $v$，其对应的线性组合是 $\mathbf{0}$
