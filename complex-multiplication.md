@@ -62,3 +62,14 @@ v \times w & = M \begin{bmatrix} c \\
                d \end{bmatrix}
 \end{align}
 $$
+
+## 有趣的事实
+
+单位圆上的复数 $\cos \theta + i \sin \theta$ 的矩阵是一个旋转矩阵：
+
+$$
+\begin{bmatrix}
+\cos \theta & - \sin \theta \\
+\sin \theta & \cos \theta
+\end{bmatrix}
+$$
