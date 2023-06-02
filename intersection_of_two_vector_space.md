@@ -4,7 +4,7 @@
 
 $$ M = \begin{bmatrix} V & W \end{bmatrix} $$
 
-随后求出 $M$ 矩阵的 _row echelon form matrix_ $R$。我们可以从 $R$ 的 _nullspace_ 得到这两个向量的交集。$N(R)$ 的 _dimension_ 即是交集的 _dimension_。
+随后求出 $M$ 矩阵的 _row echelon form matrix_ $R$。我们可以从 $R$ 的 _nullspace_ 得到这两个向量的交集。 $N(R)$ 的 _dimension_ 即是交集的 _dimension_。
 
 $N(R)$ 的 _special solution（同时也是 basis）_ 展现了 $V$ 和 $W$ 交集情况，以以下的 $V$ 和 $W$ 为例子：
 
@@ -30,8 +30,8 @@ R = rref(\begin{bmatrix} V & W \end{bmatrix}) = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-其中有 _special solution_：$\begin{bmatrix} -3 \\\ -1 \\\ 1 \\\ 0 \end{bmatrix}$，
-换句话说，$W$ 的其中一个 basis 在 $V$ 的向量空间中（是 $V$ 的 basis 的一个 combination）：
+其中有 _special solution_： $\begin{bmatrix} -3 \\\ -1 \\\ 1 \\\ 0 \end{bmatrix}$ ，
+换句话说， $W$ 的其中一个 basis 在 $V$ 的向量空间中（是 $V$ 的 basis 的一个 combination）：
 
 $$
 \begin{bmatrix} 
